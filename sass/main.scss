@@ -1,0 +1,36 @@
+body {
+    background: rgb(255, 237, 135);
+}
+
+.bookTitle {
+    text-decoration: none;
+    color: darkblue;
+    font-style: italic;
+    font-size: 1.4em;
+    line-height: 2em;
+    transition: all .3s
+}
+
+.bookTitle:hover {
+    text-shadow: 0 0 .2em snow, 0 0 1em rgba(41, 41, 41, 0.753);
+}
+
+.bookDetail {
+    a {
+        display: inline-block;
+        text-decoration: none;
+        padding: .4em 1em;
+        background: snow;
+        border-radius: .7em;
+        box-shadow: .2em .2em black;
+        transition: all .2s;
+        &:hover {
+           box-shadow: .2em .2em .4em black; 
+           letter-spacing: .02em;
+        }
+    }
+}
+
+#deSelect {
+    color: grey;
+}

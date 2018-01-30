@@ -1,0 +1,10 @@
+<div class="guideList">
+    <h2>Our Guides for the World Abroad...</h2>
+    <h4>Filter guides by....</h4>
+    <select ng-model="areaType" ng-options="book.type for book in books">
+        <option value="">all guidebooks</option>
+    </select>
+    <ul>
+        <li ng-repeat="guide in books | filter: {type: areaType.type}: true"><a class="bookTitle" href="#!/books/{{guide.id}}">{{guide.title}}</a></li>
+    </ul>
+</div>
