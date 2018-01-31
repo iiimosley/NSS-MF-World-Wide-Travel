@@ -4,7 +4,7 @@
 
 Implement Angular to build an application that compiles a collection of travel guides & expose all guides to the view.
 
-### Requiremed Components
+### Required Components
 + one view
 + one controller
 + fetch data using `$http` call w/ promise & save in `$scope.books` object
