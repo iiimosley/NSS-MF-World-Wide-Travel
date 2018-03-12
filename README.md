@@ -13,3 +13,4 @@ Implement Angular to build an application that compiles a collection of travel g
 + Implement a factory to fetch data and inject as dependency in controller
 + Configure routing in `app.js`, inject routing as a dependency, and remove controller reference from index
 
+
